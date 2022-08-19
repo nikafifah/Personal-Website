@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>Contact</title>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!-- Main css -->
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Lora|Merriweather:300,400" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Navigation section  -->
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+     <div class="container">
+
+          <div class="navbar-header">
+               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+               </button>
+               <a href="intro.html" class="navbar-brand">N A</a>
+          </div>
+          <div class="collapse navbar-collapse">
+               <ul class="nav navbar-nav navbar-right">
+                    <li><a href="intro.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="gallery.html">My Family</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+               </ul>
+          </div>
+
+  </div>
+</div>
+
+<!-- Home Section -->
+<section id="home" class="main-contact parallax-section">
+     <div class="overlay"></div>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-12 col-sm-12">
+                    <h1>Contact Me</h1>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+     <div class="container">
+          <div class="row">
+               
+               <div class="col-md-offset-1 col-md-10 col-sm-12">
+                    <h2>Hello !</h2>
+                    <p>Want to get in touch with me? Fill out the form below to send me a message and I will try to get back to you within 24 hours!</p>
+               
+               <form id="contact" method="post">
+                    <label>First Name: </label>
+                    <br>
+                    <input type="text" name="fname" class="form-control" id="name" placeholder="Enter first name">
+                    <br><br>
+
+                    <label>Last Name: </label>
+                    <br>
+                    <input type="text" name="lname" class="form-control" id="name" placeholder="Enter last name">
+                    <br><br>
+
+                    <label>Phone Number: </label>
+                    <br>
+                    <select name="phonecode">
+                         <option selected hidden value="">Select Code</option>
+                         <option value="+60">+60</option>
+                         <option value="+61">+61</option>
+                         <option value="+62">+62</option>
+                         <option value="+63">+63</option>
+                         <option value="+64">+64</option>
+                         <option value="+65">+65</option>
+                    </select>
+
+                    <input type="text" name="phoneno" id="name" placeholder="Enter phone number">
+                    <br><br>
+
+                    <label>Email: </label>
+                    <br>
+                    <input type="text" name="email" class="form-control" id="email" placeholder="Enter email">
+                    <br><br>
+
+                    <label>Gender: </label>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="gender" id="male">
+                    &nbsp;
+                    <span id="male">Male</span>
+
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="gender" id="female">
+                    &nbsp;
+                    <span id="male">Female</span>
+                    <br><br>
+
+                    <label>Push Notification: </label>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="noti" id="phoneno">
+                    &nbsp;
+                    <span id="phoneno">Phone Number</span>
+
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="noti" id="email">
+                    &nbsp;
+                    <span id="email">Email</span>
+                    <br><br>
+
+                    <label>Subject: </label>
+                    <br>
+                    <input type="textbox" type="text" class="form-control" id="subject" placeholder="Subject">
+                    <br>
+
+                    <label>Subject: </label>
+                    <br>
+                    <textarea type="textbox" rows="5" class="form-control" id="message" placeholder="Message"></textarea>
+                    <br><br>
+
+                    <button type="submit" onclick="alert('SUBMITTED !')" class="contactbtn">SUBMIT</button>
+               </form>  
+          </div>
+     </div>
+     </div>
+</section>
+
+<!-- Footer Section -->
+<footer>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-5 col-md-offset-1 col-sm-6">
+                    <h3>Nik Studio</h3>
+                    <p>Thank you for reading my blog.</p>
+               </div>
+
+               <div class="col-md-4 col-md-offset-1 col-sm-6">
+                    <h3>Stay connected</h3>
+                    <p><i class="fa fa-globe"></i> UiTM Campus Raub</p>
+                    <p><i class="fa fa-phone"></i> 017-656 8644</p>
+                    <p><i class="fa fa-save"></i> nikafifah712@gmail.com</p>
+               </div>
+          </div>
+     </div>
+</footer>
+
+
+<!-- SCRIPTS -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
